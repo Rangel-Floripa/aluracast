@@ -37,7 +37,7 @@ body {
 .container {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-
+    
 }
 
 
@@ -50,7 +50,7 @@ body {
     width: 230px;
 }
 
-.menu-lateral__link::before {
+.menu-lateral__link::before  {
     padding-left: 1rem;
     padding-right: .5rem;
     vertical-align: middle;
@@ -111,7 +111,7 @@ body {
     font-size: 1.5rem;
 }
 
-.cartao__titulo {
+.cartao__titulo{
     font-weight: 700;
     line-height: 22px;
 }
@@ -155,7 +155,6 @@ body {
     height: 133px;
     margin-bottom: .5rem;
 }
-
 .secao-vertical .cartao__subtitulo {
     margin-top: .75rem;
 }
@@ -168,7 +167,6 @@ body {
     width: 100vw;
     opacity: 0.9;
 }
-
 .navbar__items {
     width: 80%;
     margin: .5rem auto;
@@ -228,8 +226,7 @@ body {
     font-size: .75rem;
 }
 
-.barra__container--reproducao,
-.rodape__barra--reproducao div {
+.barra__container--reproducao, .rodape__barra--reproducao div {
     width: 37vw
 }
 
@@ -237,11 +234,12 @@ body {
     width: 25vw;
 }
 
-.barra__container--volume,
-.rodape__barra--volume div {
+.barra__container--volume, .rodape__barra--volume div  {
     width: 8vw;
 }
 
 .rodape__barra--volume {
     width: 4vw;
 }
+
+

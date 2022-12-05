@@ -7,7 +7,7 @@
     grid-template-rows: 120px auto;
 }
 
-.secao-vertical {
+.secao-vertical { 
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr 2fr;
 }
@@ -27,8 +27,8 @@
     --largura-maxima-da-coluna: max(var(--min-largura-maxima-da-coluna), var(--max-largura-maxima-da-coluna) - var(--gap-proporcional));
 
     --minimo: min(var(--largura-minima-da-coluna), var(--largura-maxima-da-coluna));
-
-
+   
+   
     grid-template-columns: repeat(auto-fit, minmax(var(--minimo), 1fr));
 }
 
